@@ -1,0 +1,36 @@
+.curso{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.info__curso{
+    border-radius: 8px;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.texto__curso, .curso__detallado{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.curso__detallado{
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.curso__img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    }
+
+
+@media(min-width:720px){
+.info__curso{
+    display: flex;
+    border-radius: 8px;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.curso__img{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    width: 60%;
+    }
+}
